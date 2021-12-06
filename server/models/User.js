@@ -8,6 +8,7 @@ const UserSchema = new mongoose.Schema({
     },
     email_id : {
         type: String,
+        unique:true,
         required: true,
     },
     mobile_no :{
@@ -18,14 +19,28 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    image : {
+    degree: {
         type: String,
         required: true,
     },
-    friendsList :{
-            type: Object,
-            required: true,
-            
+   course : {
+        type: String,
+        required: true,
+    },
+    clg_name : {
+        type: String,
+        required: true,
+    },
+    clg_reg_no: {
+        type: String,
+        required: true,
+    },
+    image : {
+        type: String
+    },
+    lastUpdate:{
+        type: Date,
+        default:Date.now(),
     }
 });
 
