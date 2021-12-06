@@ -1,4 +1,4 @@
-POST http://localhost:3001/insert
+POST http://localhost:3001/users/register
 Content-Type: application/json
 
 {
@@ -7,5 +7,9 @@ Content-Type: application/json
     "mobile_no":"9876543214",
     "password":"Neeraj@1003",
     "image":"docs/img/kk.jpg",
+    "degree":"Btech",
+    "course":"CSE",
+    "clg_name":"AKNU",
+    "clg_reg_no":"1829382"
 
 }
