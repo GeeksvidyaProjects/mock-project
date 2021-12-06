@@ -1,0 +1,11 @@
+POST http://localhost:3001/insert
+Content-Type: application/json
+
+{
+    "full_name":"Neeraj singh chowhan",
+    "email_id":"neerajsingh@gmail.com",
+    "mobile_no":"9876543214",
+    "password":"Neeraj@1003",
+    "image":"docs/img/kk.jpg",
+
+}
