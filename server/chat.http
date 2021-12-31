@@ -1,0 +1,15 @@
+POST http://localhost:3001/sendmssg
+Content-Type: application/json
+
+{
+    "chatId":"ajdfhgf",
+    "message":[{        
+        "messageid":"aswasas",
+          "message":"Hi bro",
+          "userid":"aseetgf",
+          "timestamp":"30-12-21",
+          "status":0
+        }],
+    "lastUpdate":"30-12-21"
+
+}
