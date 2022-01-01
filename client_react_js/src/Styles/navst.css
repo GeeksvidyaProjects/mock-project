@@ -1,0 +1,31 @@
+.tab {
+  padding: 15px;
+  width: 100vw;
+}
+
+.navL {
+  min-width: 30px;
+  width: 20vw;
+}
+
+.navM {
+  min-width: 50px;
+  width: 60vw;
+}
+
+.navR {
+  width: 20vw;
+}
+
+td {
+  border: 1;
+}
+
+.button {
+  padding-left: 30%;
+}
+
+.navRb {
+  display: flex;
+  flex-direction: row-reverse;
+}
