@@ -2,14 +2,14 @@ POST http://localhost:3001/users/register
 Content-Type: application/json
 
 {
-    "full_name":"Kranthi",
-    "email_id":"jk@gmail.com",
-    "mobile_no":"5416343214",
-    "password":"eeraj@1003",
+    "full_name":"Neersinghch",
+    "email_id":"Ns@gmail.com",
+    "mobile_no":"5416343223",
+    "password":"Neeraj@1003.",
     "image":"docs/img/kk.jpg",
     "degree":"Btech",
     "course":"CSE",
     "clg_name":"AKNU",
-    "clg_reg_no":"2828382"
+    "clg_reg_no":"28283815"
 
 }

@@ -1,0 +1,7 @@
+
+GET http://localhost:3001/users/Login
+Content-Type: application/json
+{   
+    "email_id":"Ns@gmail.com", 
+    "password":"Neeraj@1003."
+}

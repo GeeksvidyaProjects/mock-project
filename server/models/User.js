@@ -13,7 +13,8 @@ const UserSchema = new mongoose.Schema({
     },
     mobile_no :{
         type: String,
-        required: true,
+        default:null
+        
     },
     password : {
         type: String,
@@ -21,22 +22,27 @@ const UserSchema = new mongoose.Schema({
     },
     degree: {
         type: String,
-        required: true,
+        default:null
+        
     },
    course : {
         type: String,
-        required: true,
+        default:null
+        
     },
     clg_name : {
         type: String,
-        required: true,
+        default:null
+        
     },
     clg_reg_no: {
         type: String,
-        required: true,
+        default:null
+        
     },
     image : {
-        type: String
+        type: String,
+        default:null
     },
     lastUpdate:{
         type: Date,
@@ -47,3 +53,4 @@ const UserSchema = new mongoose.Schema({
 
 const User = mongoose.model("user",UserSchema);
 module.exports = User;
+ 

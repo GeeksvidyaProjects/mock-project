@@ -48,4 +48,24 @@ router.post("/Login", async (req,res) => {
 
 });
 
+
+router.post("/signin", async (req,res) => {
+   
+    try{
+     const data={   
+         email_id : req.body.email_id, 
+         password :req.body.password,
+         full_name:req.body.name
+     };
+     const user = new Useremodel(data);
+    console.log("yes");
+    
+        await user.save();
+        res.send("registered data");
+    }catch (err) {
+        console.log(err);
+    }
+    });
+
+
 module.exports =router;

@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/nav2st.css'
+import '../Styles/nav2st.css';
+import { Link,withRouter } from 'react-router-dom';
 class Nav2 extends React.Component{
     constructor(){
         super();
@@ -20,10 +21,10 @@ class Nav2 extends React.Component{
 
     render() {
         return (
-            <div style={{width:'100vw'}}>
+            <div style={{width:'100vw',position:'absolute',zIndex:2}}>
               <div >
                 <center><p style={{paddingTop:'4px'}}>
-                This is heading
+                InterFace
                     </p>
                     </center>
             </div>

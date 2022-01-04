@@ -3,6 +3,7 @@ import Nav from "./Navbar";
 import React from "react";
 import kk from '../assets/Interview-cuate (1).png';
 import Card from './Cards';
+import Footer from './Footer';
 class Home extends React.Component{
 
     selectnav=()=>{
@@ -12,14 +13,14 @@ class Home extends React.Component{
         return(<Nav2 />);
       }
     }
-    componentDidMount(){
-        this.selectnav();
-    }
+    
+    
     render() {
         return (
-        <>
+        < >
         
         {this.selectnav()}
+        
         
         <div style={{display:"flex",flexDirection:"row",width:"100vw",flexWrap:"wrap"}}>
             <div style={{display:"flex",flexDirection:"row-reverse",width:"50%",minWidth:'400px'}}>
@@ -28,20 +29,22 @@ class Home extends React.Component{
             </div>
             <div style={{width:"50vw",display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"row",minWidth:'400px',alignContent:"flex-end"}}>
                 <div style={{width:"100%",wordWrap:'break-word'}}>  
-                <h2>we are here to avoid your fear</h2>
-                <h2>we are here to avoid your fear</h2>
-                <p>ajrebgfqerfho9q3ujf;o39u340r8349rtuj3498u4rriuh4r7rr</p>
-                <p>rusrbgwerygh78qht3I;RJFO4I9JFFNIUFHN34IR7H44UDeuirhruuaerurfhruf</p>
+                <h2>Welocome to the "InterFace"</h2>
+                <h4><b>Lets face the interview with out fear.</b></h4>
+
+
+                <p>Lets know the --minums-- and make them ++plus++ in the carrer opportunites.....</p>
                 <button style={{backgroundColor:"blue",borderRadius:"10px",paddingLeft:"5px",paddingRight:"5px",color:"white",paddingTop:"4px",paddingBottom:"4px"}}>get started</button>
                 </div>
             </div>
             
         </div>
-        <div style={{display:"flex",flexDirection:"row",alignItems:"center",justifyContent:"center",width:"100%",marginTop:'20px'}}>
+        <div style={{display:"flex",flexDirection:"row",alignItems:"center",justifyContent:"center",width:"100%",marginTop:'20px',flexWrap:"wrap"}}>
         <Card title="Hi this is" body="body"/>
         <Card title="Hi this is" body="body"/>
         <Card title="Hi this is" body="body"/>
         </div>
+        <Footer />
         </>);
     }
 }

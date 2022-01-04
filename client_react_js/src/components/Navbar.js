@@ -1,15 +1,16 @@
 import React from 'react';
 import '../Styles/navst.css'
+import { Link,withRouter } from 'react-router-dom';
 class Nav extends React.Component{
 
 
     render() {
         return (
-            <div style={{width:'100vw'}}>
+            <div style={{width:'100vw',position:'absolute',zIndex:'2'}}>
                <table className='tab'>
                    <tr>
                        <td className='navL'>
-                            Sifra
+                            InterFace
                        </td>
 
 

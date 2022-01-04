@@ -1,0 +1,43 @@
+h2 {
+  color: aquamarine;
+}
+
+@media screen and (max-width: 869px) {
+  h2 {
+    color: white;
+  }
+  .sideview {
+    width: 0;
+    height: 0;
+    float: left;
+    overflow: hidden;
+  }
+  .mainview {
+    width: 90%;
+    float: center;
+    background-color: white;
+    height: 98%;
+    max-height: 525px;
+  }
+}
+
+@media screen and (min-width: 870px) {
+  h2 {
+    color: yellow;
+  }
+
+  .sideview {
+    width: 50%;
+
+    float: left;
+    padding-top: 15%;
+  }
+  .mainview {
+    width: 50%;
+    float: right;
+    padding-top: 3%;
+    background-color: white;
+    height: 96%;
+    max-height: 525px;
+  }
+}
