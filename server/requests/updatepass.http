@@ -1,0 +1,8 @@
+POST http://localhost:3001/users/updatepass
+Content-Type: application/json
+
+{   
+    "email_id":"Ns@gmail.com", 
+    "password":"Qwer1asas."
+}
+ 

@@ -1,0 +1,8 @@
+
+POST http://localhost:3001/emails/verify
+Content-Type: application/json
+
+{   
+    "email_id":"neerajsinghchowhan@gmail.com", 
+    "otp":"Hbisdsd"
+}   

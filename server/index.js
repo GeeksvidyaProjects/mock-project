@@ -17,6 +17,8 @@ mongoose.connect("mongodb+srv://newuser:newuser@socialmedia.emihq.mongodb.net/my
 app.use("/users",require("./routes/UserApi"));
 
 
+app.use("/emails",require("./routes/EmailApi"));
+
 
 app.get("/readUserdata", async (req,res) => {
     

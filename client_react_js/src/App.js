@@ -1,15 +1,19 @@
-import './App.css';
+// import './App.css';
 import Signup from './components/Signup';
 import Login from './components/Login';
-import Home from "./components/Home";
-
+import Layout from "./Layout";
+import Newnav  from './components/Newnav';
+import Forgotpass from "./components/Forgotpass";
 import { BrowserRouter,Route,Routes,Switch,Redirect } from "react-router-dom";
 const App = ()=>(
   <BrowserRouter>
   <Switch>
-    <Route exact path="/" component={Home}/>
+    <Route exact path="/" component={Layout}/>
     <Route exact path="/login" component={Login}/>
     <Route exact path="/signup" component={Signup}/>
+    <Route exact path="/forgotpass" component={Forgotpass}/>
+    <Route exact path="/nav" component={Newnav}/>
+    
   </Switch>
   </BrowserRouter>
 

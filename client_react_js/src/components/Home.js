@@ -1,5 +1,5 @@
-import Nav from "./Navbar";
- import Nav2 from "./Nav2";
+
+ 
 import React from "react";
 import kk from '../assets/Interview-cuate (1).png';
 import Card from './Cards';
@@ -8,18 +8,19 @@ class Home extends React.Component{
 
     selectnav=()=>{
       if(window.innerWidth>=598){
-          return(<Nav />);
+         
       }else{
-        return(<Nav2 />);
+        
       }
     }
+    
     
     
     render() {
         return (
         < >
         
-        {this.selectnav()}
+        
         
         
         <div style={{display:"flex",flexDirection:"row",width:"100vw",flexWrap:"wrap"}}>

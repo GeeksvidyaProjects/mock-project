@@ -1,0 +1,6 @@
+POST http://localhost:3001/users/exists
+Content-Type: application/json
+
+{   
+    "email_id":"kk@gmail.com"
+}   

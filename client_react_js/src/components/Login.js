@@ -199,7 +199,8 @@ class Login extends React.Component{
                                 <tr >
                                     <td >
                                         <center>
-                                        <button style={{marginTop:'10px',backgroundColor:'#7900FF',width:'240px',height:'30px',color:"white"}} onClick={this.verify}>Sign in !</button>
+                                        <button style={{marginTop:'10px',backgroundColor:'#7900FF',width:'240px',height:'30px',color:"white",marginBottom:'9px'}} onClick={this.verify}>Sign in !</button>
+                                        <p><a href="#"> Forgot Password ? </a></p>
                                         </center>
                                         
                                     </td>
